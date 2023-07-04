@@ -1,0 +1,99 @@
+.about-page{
+    padding: 20px 10%;
+    display: flex;
+    gap: 5%;
+    height: fit-content;
+    align-items: center;
+    
+}
+.right-img{
+    /* float: right; */
+    background-image: url('../Attributes/aboutImg.svg');
+height: 400px;
+width: 80%;
+background-repeat: no-repeat;
+background-size: cover;
+}
+.experience{
+    position: relative;
+    top: -20px;
+    left: -20px;
+    width: 200px;
+    height: auto;
+    padding: 50px auto 20px auto;
+    border-radius: 3.333px;
+background: #1C7E68;
+box-shadow: 0px 6.6666669845581055px 16.666667938232422px 0px rgba(0, 0, 0, 0.20);
+}
+.experience h1{
+    color: #FFF;
+text-align: center;
+font-size: 41.333px;
+font-family: Nunito;
+font-style: normal;
+font-weight: 700;
+
+}
+.experience h2{
+    color: #FFF;
+text-align: center;
+font-size: 16px;
+font-family: Nunito;
+font-style: normal;
+font-weight: 400;
+line-height: 32px;
+}
+.left-text{
+    /* float: left; */
+    /* width: 500px; */
+    text-align: left;
+    width: 100%;
+}
+.left-text h1{
+    color: #000;
+font-size: 28px;
+font-family: Nunito;
+font-style: normal;
+font-weight: 700;
+line-height: 33.6px;
+}
+.left-text p{
+    color: #666;
+font-size: 14px;
+font-family: Nunito;
+font-style: normal;
+font-weight: 400;
+line-height: 24px;
+}
+.points{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-around; */
+    gap: 50px;
+    margin-top: 30px;
+
+}
+.point{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.point h2{
+    color: #000;
+font-size: 16px;
+font-family: Nunito;
+font-style: normal;
+font-weight: 700;
+line-height: 19.2px;
+}
+
+
+@media (max-width: 768px){
+    .about-page{
+        display: block;
+    }
+    .right-img{
+        width: 100%;
+        margin-top: 20px;
+    }
+}

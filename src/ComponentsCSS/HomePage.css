@@ -1,0 +1,324 @@
+.Image-container{
+    background-image: url('../Attributes/Background\ Image (1).svg');
+    height: 90vh;
+    width: 100%;
+    position: relative;
+   background-repeat: no-repeat;
+   background-size: cover;
+
+}
+.inner-container{
+    width: 100%;
+    position: absolute;
+    /* background-color: red; */
+    margin: 10px auto;
+    height: fit-content;
+}
+.logo-and-call-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0% 5%;
+    align-items: center;
+    width: 100%;
+
+}
+.call-and-address-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+}
+.call-and-address{
+    width: fit-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    text-align: left;
+    gap: 20px;
+}
+.call-and-address img{
+    float: left;
+    
+}
+.call-and-address-div h1{
+    color: #FD0;
+font-size: 10.667px;
+font-family: Nunito;
+font-style: normal;
+font-weight: 400;
+line-height: 10.667px;
+}
+.call-and-address h2{
+    color: #FFF;
+font-size: 14.667px;
+font-family: Nunito;
+font-style: normal;
+font-weight: 700;
+line-height: 14.667px;
+}
+.nav-and-chat{
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.nav-and-chat .chat-with-us{
+    border-radius: 20px;
+background: #1C7E68;
+color: #FFF;
+font-size: 16px;
+font-family: Nunito;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+border: none;
+width: 200px;
+height: fit-content;
+padding: 10px 20px;
+}
+.navbar{
+    /* position: relative; */
+    border-radius: 8.889px;
+background: #FFF;
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+width: 80%;
+height: fit-content;
+margin: 10px auto;
+padding: 20px;
+display: flex;
+align-items:center;
+justify-content: space-between;
+
+}
+.page-links{
+    display: flex;
+    align-items: center;
+    /* justify-content: space-around; */
+
+    gap: 20px;
+}
+.page-links a{
+    text-decoration:none;
+    color: #000;
+font-size: 16px;
+font-family: Nunito;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+padding: 10px;
+border-radius: 10px;
+}
+.free-quote{
+    border-radius: 20px;
+    background: #1C7E68;
+    color: #000;
+    font-size: 16px;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border: none;
+    width: 200px;
+    height: fit-content;
+    padding: 10px 20px;
+    border-radius: 10px;
+background: #FD0;
+}
+.social-and-quote{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    gap: 20px;
+    align-items: center;
+}
+.social{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    gap: 20px;
+    align-items: center;
+}
+.active{
+    background: #1C7E68;
+    color: #ffffff;
+}
+.page-links a:hover{
+    color:#fff ;
+    background: #1C7E68;
+}
+.centeral-data{
+    position: relative;
+    margin-top: 100px;
+    width: 80%;
+    text-align: left;
+    margin: 10px auto;
+    justify-content: center;
+}
+.description a{
+    text-decoration: none;
+    color: #FFF;
+}
+.centeral-data h6{
+    color: #FFF;
+font-size: 15.111px;
+font-family: Nunito;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+letter-spacing: 0.151px;
+}
+.centeral-data h1{
+    color: #FFF;
+font-size: 32.889px;
+font-family: Nunito;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.329px;
+}
+.lg-buttons{
+    /* display: flex; */
+
+}
+.learn-more{ 
+    padding: 10px;
+    border-radius: 4.444px;
+    border: 0.889px solid #FFF;
+    box-shadow: 0px 6px 4px 0px rgba(0, 0, 0, 0.25);
+    color: #FFF;
+font-size: 13.333px;
+font-family: Nunito;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+letter-spacing: 0.267px;
+background-color: transparent;
+margin-right: 20px;
+}
+.get-started{
+    padding: 10px;
+    border-radius: 4.444px;
+    background: #FD0;
+    box-shadow: 0px 6px 4px 0px rgba(0, 0, 0, 0.25);
+    color: #000;
+font-size: 13.333px;
+font-family: Nunito;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+.moving-easy-div{
+    width: 80%;
+    height: fit-content;
+    position: relative;
+    top: -50px;
+    margin-left: auto;
+    margin-right: auto;
+    background: #ffffff;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    padding: 30px auto;
+
+}
+.moving-div{
+    width: 50%;
+    padding: 20px 50px;
+    margin: auto;
+    border-radius: 17.372px;
+background: #1C7E68;
+color: #FFF;
+/* font-size: 26.058px; */
+font-family: Nunito;
+font-style: normal;
+/* font-weight: 700; */
+/* line-height: normal; */
+}
+.responsive-nav{
+    display: none;
+
+}
+
+
+@media (max-width: 768px){
+    .logo-and-call-div, .nav-and-chat{
+        display: none;
+    }
+   .centeral-data{
+    margin-top: 40%;
+   }
+    .responsive-nav{
+        display: flex;
+        background-color: #000;
+        margin: 0px;
+        position: fixed;
+        width: 100%;
+        z-index: 2;
+       flex-direction: column;
+       gap: 10px;
+       top: 0;
+    }
+    .res-logo{
+        width: 30%;
+    }
+    .burger{
+        background-color: #FD0;
+        margin: 5px;
+        border-radius: 8px;
+        padding: 5px;
+        padding-top: 5px;
+    }
+    .line{
+        width: 20px;
+        height: 3px;
+        background-color: #333;
+        margin: 5px 7px;
+    }
+    .responsive-links{
+        display: flex;
+        flex-direction: column;
+        gap: 6px;
+        justify-content: center;
+        align-items: center;
+    }
+    .responsivebar-top{
+        display: flex;
+        justify-content: space-between;
+        text-decoration: none;
+    }
+    .reponsive-top-link{
+        font-size: 18px;
+        color: #fff;
+        text-decoration: none;
+    }
+    .inv{
+        display: none;
+    }
+    .cross{
+        color:white;
+     background-color: green ;
+     padding:5px; 
+     font-size:35px;
+     border-radius:8px;
+     margin:5px;
+    }
+    
+.h-frontpage{
+    font-size: 18px;
+    margin: 0px;
+}
+.moving-div{
+    width: 90%;
+}
+.social{
+    color: #ffffff;
+}
+.social-and-quote{
+    flex-direction: column;
+}
+}
